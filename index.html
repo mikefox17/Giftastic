@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giftastic</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<style>
+
+  button {
+    margin: 5px;
+    padding: 2px;
+    align-content: center;
+  }
+
+  #submitButton {
+    margin: 0;
+  }
+
+img {
+  align-content: center;
+  margin: 10px 0px;
+  padding: 3px;
+  width: 350px;
+  border: 10px;
+}
+
+.jumbotron {
+  margin-top: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="container">
+  
+<!-- Where topicButtons will display jumbotron to clearly display them -->
+<div class="jumbotron" id="topicButtons"><div class="card-header bg-dark text-light font-weight-bold text-lg-center"><h2>Saved Topics</h2></div></div>
+
+<!-- Searchbar displays here-->
+
+<div class="input-group">
+    <input type="text" class="form-control" label="topicInput" id="topicInput" placeholder="" aria-label="" aria-describedby="basic-addon1">
+    <div class="input-group-append">
+      <button class="btn btn-success" type="button" id="submitButton">Get Gifphy with it</button>
+    </div>
+  </div>
+  <br><br><hr>
+
+<!-- Where GIFs will display -->
+
+<div class="row" id="topicGIFs"></div>
+
+
+
+</body>
+
+<script type="text/javascript" src="javascript/app.js"></script>
+
+
+
+
+
+</body>
+</html>
+
+
+
